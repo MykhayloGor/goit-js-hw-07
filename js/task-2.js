@@ -30,8 +30,7 @@ const newGallery = images
   .map(
     (image) => `
   <li class="gallery-item">
-  </li> <img src="${image.url}" alt="${image.alt}" class="gallery-image">
-
+  <img src="${image.url}" alt="${image.alt}" class="gallery-image">
   </li>`
   )
   .join('');
